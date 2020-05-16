@@ -2,12 +2,10 @@
 title: "HelloWorld"
 author: "Alver Cruz"
 date: "15/5/2020"
-output: pdf_document
+output:
+  word_document: default
+  pdf_document: default
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## This is a markdown file
 
